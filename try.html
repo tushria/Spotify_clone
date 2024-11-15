@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+
+.services-wrap {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.services-flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .services-flex {
+    flex-direction: row;
+    padding: 0 4rem;
+    flex-wrap: wrap;
+    align-items: stretch;
+    max-width: 1500px;
+    margin: auto;
+  }
+  .flex-box {
+    flex: 1 30%;
+    margin: 1rem;
+    min-height: 220px;
+  }
+}
+
+img {
+  min-height: 100%!important;
+}
+</style>
+<body>
+    <section class="services-wrap">
+      <h3>OUR SERVICE</h3>
+      <hr>
+      <div class="services-flex">
+        <div id="service-box" class="flex-box">
+          <img class="service-img" src="http://placehold.it/125">
+        </div>
+        <div id="service-box" class="flex-box">
+          <img class="service-img" src="http://placehold.it/155">
+        </div>
+        <div id="service-box" class="flex-box">
+          <img class="service-img" src="http://placehold.it/175">
+        </div>
+        <div id="service-box" class="flex-box">
+          <img class="service-img" src="http://placehold.it/195">
+        </div>
+        <div id="service-box" class="flex-box">
+          <img class="service-img" src="http://placehold.it/205">
+        </div>
+        <div id="service-box" class="flex-box">
+          <img class="service-img" src="http://placehold.it/225">
+        </div>
+    
+      </div>
+    
+    </section>
+    
+</body>
+</html>
+
+
+

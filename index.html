@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+    </head>
+
+    <body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo">
+                    <img class="img" src="logo.svg" alt="spotify">
+                    <img class="close" src="close.svg" alt="close">
+                </div>
+                <ul>
+                    <li><img class="invert log" src="home.svg" alt="Home"> <a href="home">Home</a></li>
+                    <li><img class="invert log" src="search.svg" alt="Search"><a href="search">Search</a></li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert log" src="library.svg" alt="library">
+                    <h2>
+                        Your Library
+                    </h2>
+                    <!-- <img class="invert log2" src="plus.svg" alt=""> -->
+                </div>
+                <div class="songList">
+                    <ul>
+                        <li>
+                            <img src="musicsvg.svg" alt="">
+                            <div class="info">
+                                <div>Song Name</div>
+                                <div>Song Artist</div>
+                            </div>
+                            <div class="playnow">
+                                <span>Play Now</span>
+                                <img src="playsong.svg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div class="link1"><a href="https://www.spotify.com/jp/legal/">Legal</a></div>
+                    <div class="link1"><a href="https://www.spotify.com/jp/legal/">Safety & Privacy Center</a></div>
+                    <div class="link3"><a href="https://www.spotify.com/jp/legal/privacy-policy/">Privacy Policy</a>
+                    </div>
+                    <div class="link4"><a href="https://www.spotify.com/jp/legal/cookies-policy/">Cookies</a></div>
+                    <div class="link5"><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3">About Ads</a></div>
+                    <div class="link6"><a href="https://www.spotify.com/jp/accessibiliy">Accessibility</a></div>
+                    <div class="link4"><a href="https://www.spotify.com/jp/legal/cookies-policy/">Cookies</a></div>
+                </div>
+                <!-- <div class="footer_btn">
+                    <button><img class="invert" src="english_btn.svg" alt="">English</button>
+                </div> -->
+            </div>
+
+        </div>
+
+        <!-- right side begins from here -->
+        <div class="right border bg-grey rounded">
+            <div class="nav">
+                <div class="testing">
+                <img class="hamburger" src="hamburger.svg" alt="">
+                <button class="round"><img class="invert arrow" src="arrow.svg" alt=""></button>
+                <button class="round"><img class="invert arrow" src="revert_arrow.svg" alt=""></button>
+                <button class="signupbtn">Sign up</button>
+                <button class="loginbtn">Login in</button>
+                </div>
+
+            </div>
+
+
+            <div class="playlist">
+                <div class="heading_of_popular_albums">
+                    <h2>Popular Artist</h2>
+                </div>
+                <!-- <span>
+                    <a class="anchor" href="Show all">Show all</a>
+                </span> -->
+                <div class="artist_cont">
+                    <div class="artist art">
+                        <img class="image" src="artist1.jpeg" alt="pritam">
+                        <h4 class="names">Pritam</h4>
+                    </div>
+                    <div class="artistt art">
+                        <img class="image" src="artist3.jpeg" alt="AR rahman">
+                        <h4 id="names">A.R Rahman</h4>
+                    </div>
+                    <div class="artist3 art">
+                        <img class="image" src="artist5.jpeg" alt="anirudh Ravichander">
+                        <h4 id="names">Anirudh Ravichander</h4>
+                    </div>
+
+                    <div class="artist2 art">
+                        <img class="image" src="artist2.jpeg" alt="Atif aslm">
+                        <h4 id="names">Atif Aalm</h4>
+                    </div>
+                    <!-- sample -->
+                    <div class="artist2 art">
+                        <img class="image" src="artist2.jpeg" alt="Atif aslm">
+                        <h4 id="names">Atif Aalm</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- music cards -->
+            <div class="poplr">
+                <div class="heading_of_popular_albums">
+                    <h2>Popular Albums</h2>
+                </div>
+                <!-- <span>
+                    <a class="anchor" href="Show all">Show all</a>
+                </span> -->
+                <div class="card_container">
+                    <!-- card1 -->
+                    <div class="card">
+                       
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="imag">
+                            <img src="animal.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">ANIMAL</h4>
+                            <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
+                        </div>
+                    </div>
+
+                    <!-- card2 -->
+                    <div class="card">
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="imag">
+                            <img src="still_rollin.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">Still Rollin</h4>
+                            <p>Shubh</p>
+                        </div>
+                    </div>
+
+                    <!-- card3 -->
+                    <div class="card">
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="imag">
+                            <img src="moosetape.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">Moosetape</h4>
+                            <p>Sidhu Moose Wala</p>
+                        </div>
+                    </div>
+
+                    <!-- card4 -->
+                    <div class="card">
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="imag">
+                            <img src="badshah.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">Ek Tha Raja</h4>
+                            <p>Badshah</p>
+                        </div>
+                    </div>
+
+                    <!-- card5 -->
+                    <div class="card">
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="imag">
+                            <img src="diljit_dosanjh.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">Ghost</h4>
+                            <p>Diljit Dosanjh</p>
+                        </div>
+                    </div>
+
+                
+                    <!-- container 2 -->
+                    <div class="card">
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="imag">
+                            <img src="animal.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">ANIMAL</h4>
+                            <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card">
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="imag">
+                            <img src="still_rollin.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">Still Rollin</h4>
+                            <p>Shubh</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card">
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="imag">
+                            <img src="moosetape.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">Moosetape</h4>
+                            <p>Sidhu Moose Wala</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card">
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="imag">
+                            <img src="badshah.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">Ek Tha Raja</h4>
+                            <p>Badshah</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card">
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="imag">
+                            <img src="diljit_dosanjh.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">Ghost</h4>
+                            <p>Diljit Dosanjh</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- <div class="card_container">
+                    
+                    <div class="card">
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="image">
+                            <img src="animal.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">ANIMAL</h4>
+                            <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card">
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="image">
+                            <img src="still_rollin.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">Still Rollin</h4>
+                            <p>Shubh</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card">
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="image">
+                            <img src="moosetape.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">Moosetape</h4>
+                            <p>Sidhu Moose Wala</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card">
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="image">
+                            <img src="badshah.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">Ek Tha Raja</h4>
+                            <p>Badshah</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card">
+                        <button class="play_btn"><img src="play_btn.png" alt="play_btn"></button>
+                        <div class="image">
+                            <img src="diljit_dosanjh.jpeg" alt="">
+                        </div>
+                        <div class="card_text">
+                            <h4 style="font-weight: 100;">Ghost</h4>
+                            <p>Diljit Dosanjh</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+            
+                <div class="playbar">
+                    <div class="songinfo"></div>
+                    <div class="playsong">
+                        <img id="previous" src="previoussong.svg" alt="">
+                        <img id="play" src="playsong.svg" alt="">
+                        <img id="next" src="nextsong.svg" alt="">
+                    </div>
+                    <div>
+                    <div class="songtime"></div>
+                    <div class="volume">
+                        <img src="volume.svg" alt="">
+                        <div class="range">
+                            <input type="range" name="volume" id="">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="seekbar">
+                        <div class="circle">
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+
+</html>

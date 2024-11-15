@@ -1,0 +1,187 @@
+img{
+    height: 25px;
+}
+
+.flex{
+    display: flex;
+}
+.border{
+    border:2px solid #121212; 
+    margin: 8px;
+}
+.rounded{
+    border-radius:9px;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-grey{
+    background-color: #121212;
+    
+}
+
+.invert{
+    filter:invert(1);
+}
+
+.log{
+    width: 20px;
+    height: 20
+    px;
+}
+
+.log2{
+    width: 15px;
+    height: 20px;
+    padding: 0px 8px 0px 85px;
+}
+
+.m-1{
+    margin:8px 1px;
+}
+
+.anchor{
+    margin-left: 90%;
+    color: #aeaeae;
+    font-size: 14px;
+    text-decoration: none;
+}
+.anchor:hover{
+    text-decoration: underline;
+}
+
+
+.p-1{
+    padding: 7px;
+}
+
+.round {
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    border-style: none;
+}
+
+button{
+    background-color: rgba(17, 17, 17, 0.886);
+    color: white;
+    padding: 10px;
+    
+}
+.arrow{
+    height: 13px;
+}
+
+.art:hover{
+    background-color: rgba(14, 13, 13, 0.712);
+}
+.art img{
+    padding-inline: 10px;
+    height: 140px;
+    border-radius: 50%;
+} 
+
+
+.card_container{
+    padding:10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px 20px;
+    justify-content: space-evenly;
+}
+/* .card_container::-webkit-scrollbar{
+    display: none;
+} */
+.poplr .card {
+    position: relative; 
+    width: 163px;
+    background-color: #121212;
+    height: 280px;
+    border-radius: 11px;
+    /* margin-right: 10px; 
+    margin-bottom: 10px; */
+}
+.poplr .card:hover{
+    background-color: rgba(38, 38, 38, 0.482);
+}
+.imag img {
+    width: 90%;
+    height: 10%;
+    object-fit: contain;
+    border-radius: 19px;
+    padding: 10px 10px 10px 10px;
+}
+
+.card_container button {
+    position: absolute;
+    top: 100px;
+    right: 16px;
+    border-radius: 50%;
+    background-color: #1ed760;
+    border: none;
+    height: 40px;
+    opacity: var();
+    width: 40px;
+}
+
+.play_btn{
+    opacity: 0%;
+}
+
+.play_btn:hover{
+    opacity: 100%;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.play_btn img{
+    height: 20px;
+}
+/* .play_btn:hover{
+    cursor: pointer;
+    transition: all 1s;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+} */
+
+.card_text{
+    padding: 10px;
+}
+ .card_text p{
+    color: #aeaeae;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.card_text p:hover{
+    text-decoration: underline;
+}
+
+ 
+/* For WebKit browsers (such as Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
